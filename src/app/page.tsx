@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import TrustBar from "@/components/TrustBar";
 import Services from "@/components/Services";
 import AirbnbSection from "@/components/AirbnbSection";
 import WhyUs from "@/components/WhyUs";
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <TrustBar />
       <Services />
       <AirbnbSection />
       <WhyUs />
